@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.alexmensak/agentmade-print-on-demand",
+  "title": "AgentMade Print on Demand",
+  "description": "Print on demand for AI agents. No sign-up. Picture, words or logo on a tee, hoodie or tote.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pod.agentmade.dev",
+  "icons": [
+    {
+      "src": "https://pod.agentmade.dev/assets/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pod.agentmade.dev/mcp/pay"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/alexmensak/agentmade-print-on-demand",
+    "source": "github"
+  }
+}
