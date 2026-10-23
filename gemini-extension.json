@@ -1,0 +1,10 @@
+{
+  "name": "agentmade-print-on-demand",
+  "version": "0.1.0",
+  "description": "Put your design, words or logo on a T-shirt, hoodie, sweatshirt or tote. Print checked at real size, one delivered price, no account.",
+  "mcpServers": {
+    "agentmade": {
+      "httpUrl": "https://pod.agentmade.dev/mcp/pay"
+    }
+  }
+}
